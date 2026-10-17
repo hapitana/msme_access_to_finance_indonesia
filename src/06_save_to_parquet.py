@@ -3,8 +3,6 @@ from pathlib import Path
 import polars as pl
 import pyreadstat
 
-project_dir = Path(r"D:\portofolio\02_msme_access_to_finance")
-
 project_root = Path(__file__).resolve().parents[1]
 
 data_path = (
@@ -14,7 +12,7 @@ data_path = (
     / "Indonesia-2023-full-data.dta"
 )
 
-output_dir = project_dir / "data" / "processed"
+output_dir = project_root / "data" / "processed"
 output_path = output_dir / "indonesia_2023.parquet"
 
 if not data_path.exists():

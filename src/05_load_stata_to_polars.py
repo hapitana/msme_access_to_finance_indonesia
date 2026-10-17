@@ -3,8 +3,6 @@ from pathlib import Path
 import polars as pl
 import pyreadstat
 
-project_dir = Path(r"D:\portofolio\02_msme_access_to_finance")
-
 project_root = Path(__file__).resolve().parents[1]
 
 data_path = (
