@@ -1,0 +1,432 @@
+﻿variable_name,variable_description,value_labels
+idstd,WEB STD FIRMID,
+id,Firm ID,
+q_version,Version of the Questionnaire,1 = A - Business Ready Module; 2 = B - Green Economy and Taxes Module
+a4a,Industry Sampling Sector,1 = Food; 2 = Textiles; 3 = Garments; 4 = Leather Products; 5 = Chemicals & Chemical Products; 6 = Rubber & Plastics Products; 7 = Non-Metallic Mineral Products; 8 = Fabricated Metal Products; 9 = Machinery & Equipment; 10 = Motor Vehicles; 11 = Other Manufacturing; 12 = Retail; 13 = Construction; 14 = Transport; 15 = Hotels; 16 = Restaurants; 17 = ICT; 18 = Professional Services; 19 = Other Services
+a6a,Sampling Size,1 = Small; 2 = Medium; 3 = Large
+a2,Sampling Region,"1 = Special Capital Region of Jakarta; 2 = West Java; 3 = East Java; 4 = Central Java; 5 = Banten; 6 = Special Region of Yogyakarta; 7 = Bali; 8 = East Nusa Tenggara; 9 = West Nusa Tenggara; 10 = Riau; 11 = West Sumatra; 12 = Aceh; 13 = Lampung; 14 = South Sumatra, Bengkulu, Jambi; 15 = The Bangka Belitung Islands, the Riau Islands; 16 = North Sumatra; 17 = West Kalimantan; 18 = South Kalimantan, Central Kalimantan; 19 = East Kalimantan, North Kalimantan; 20 = Sulawesi; 21 = Papua; 22 = Maluku Islands (Maluku and North Maluku)"
+a1c,Sample Frame Level,1 = Establishment; 2 = Firm
+rotation,Random Selection into Control and Treatment for IDa1 and IDa2,1 = A; 2 = B
+a4b_v4,Industry Screener Sector,1 = Food; 2 = Textiles; 3 = Garments; 4 = Leather Products; 5 = Chemicals & Chemical Products; 6 = Rubber & Plastics Products; 7 = Non-Metallic Mineral Products; 8 = Fabricated Metal Products; 9 = Machinery & Equipment; 10 = Motor Vehicles; 11 = Other Manufacturing; 12 = Retail; 13 = Construction; 14 = Transport; 15 = Hotels; 16 = Restaurants; 17 = ICT; 18 = Professional Services; 19 = Other Services
+a0,Questionnaire,1 = Manufacturing; 2 = Retail services; 3 = Other services
+a3a,Region of The Establishment,"1 = Special Capital Region of Jakarta; 2 = West Java; 3 = East Java; 4 = Central Java; 5 = Banten; 6 = Special Region of Yogyakarta; 7 = Bali; 8 = East Nusa Tenggara; 9 = West Nusa Tenggara; 10 = Riau; 11 = West Sumatra; 12 = Aceh; 13 = Lampung; 14 = South Sumatra, Bengkulu, Jambi; 15 = The Bangka Belitung Islands, the Riau Islands; 16 = North Sumatra; 17 = West Kalimantan; 18 = South Kalimantan, Central Kalimantan; 19 = East Kalimantan, North Kalimantan; 20 = Sulawesi; 21 = Papua; 22 = Maluku Islands (Maluku and North Maluku)"
+a6c,Screener Size,
+a6b,"Screener Size, Categorical",0 = Micro; 1 = Small; 2 = Medium; 3 = Large
+a7,Establishment part of a multi-establishment Firm?,1 = Yes; 2 = No
+a1a,Language of The Interview,1 = Bahasa (Indonesian); 2 = English
+a12,Interviewer Number,
+a14d,Day,
+a14m,Month,1 = January; 2 = February; 3 = March; 4 = April; 5 = May; 6 = June; 7 = July; 8 = August; 9 = September; 10 = October; 11 = November; 12 = December
+a14y,Year,
+a14h,Hour,
+a14min,Minutes,
+ic1,Informed Consent,1 = Yes; 2 = No
+a20y,Close Year of The Last Completed Fiscal Year,
+a20m,Close Month of The Last Completed Fiscal Year,1 = January; 2 = February; 3 = March; 4 = April; 5 = May; 6 = June; 7 = July; 8 = August; 9 = September; 10 = October; 11 = November; 12 = December
+a20d,Close Day of The Last Completed Fiscal Year,
+a1,Country Code,100 = Indonesia
+a7a,Number of Establishments In The Firm,-9 = Don't know (spontaneous)
+a7b,Is This Establishment The Headquarters Location?,1 = Yes; 2 = No
+a11,"If Hq, Financial Statements Independent of The Rest of Establishment",1 = Yes; 2 = No
+a7c,Does This Headquarters Location Engage In Production or Sales At This Location?,1 = Yes; 2 = No
+a9,Establishment'S Financial Statements Prepared Separately From Hq Statements,1 = Yes; 2 = No
+b1x,Other (Specify),
+b1,Legal Status of The Firm,-9 = Don't know (spontaneous); 1 = Shareholding company with shares traded on the stock market; 2 = Shareholding company with non-traded shares or shares traded privately; 3 = Sole proprietorship; 4 = Partnership; 5 = Limited partnership; 6 = Other
+b3a,Is the largest owner also the top manager,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+b2a,"% Owned By Private Domestic Individuals, Companies or organizations",-9 = Don't know (spontaneous)
+b2b,"% Owned By Private Foreign Individuals, Companies or organizations",-9 = Don't know (spontaneous)
+b2c,% Owned By Government/State,-9 = Don't know (spontaneous)
+b2d,% Owned By Other,-9 = Don't know (spontaneous)
+b4,"Amongst The Owners of The Firm, Are There Any Females?",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+b4a,% of The Firm Owned By Females,-9 = Don't know (spontaneous)
+b5,Year Establishment Began Operations,-9 = Don't know (spontaneous)
+b6,Number of Full-Time Employees of The Establishment When It Started Operations,-9 = Don't know (spontaneous)
+b6b,In What Year Was This Establishment Formally Registered?,-9 = Don't know (spontaneous); -7 = Never regiestered (spontaneous)
+b7,How Many Years of Experience Working In This Sector Does The Top Manager Have?,-9 = Don't know (spontaneous); 1 = One year or less
+b7a,Is The Top Manager Female?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+b8,Does Establishment Have An Internationally-Recognized Quality Certification?,-9 = Don't know (spontaneous); -6 = Still in process; 1 = Yes; 2 = No
+b8x,Specify The Internationally-Recognized Quality Certifications,
+c3,Application To Obtain An Electrical Connection Submitted Over The Last 2 Years,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+c4,How Many Days Did It Take For You To Receive An Electrical Connection Service?,-9 = Don't know (spontaneous); -6 = Still in process; -5 = Application denied; 1 = One day or less
+c5,Informal Gift/Payment Expected or Requested For An Electrical Connection?,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Yes; 2 = No
+c31_BR,Version A: Cost to obtain electrical connection,-9 = Don't know (spontaneous)
+c6,"Over Last FY, Did This Establishment Experience Power Outages?",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+c7,Number of Power Outages Experienced In A Typical Month In Last Fiscal Year,-9 = Don't know (spontaneous)
+c8a,Average Duration of Power Outages: Hours,-9 = Don't know (spontaneous)
+c8b,Average Duration of Power Outages: Minutes,-9 = Don't know (spontaneous)
+c9a,"In Last FY, Losses As % of Annual Sales Due To Power Outages",-9 = Don't know (spontaneous); 0 = None
+c9b,"In Last FY, Value of Losses Due To Power Outages",-9 = Don't know (spontaneous); 0 = None
+c10,Generator Shared or Owned Over The Course of Last Fiscal Year?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+c11,% Electricity From Generator Owned/Shared By The Establishment In Last FY,-9 = Don't know (spontaneous)
+c12,Application To Obtain A Water Connection Submitted Over The Last 2 Years,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+c13,How Many Days Did It Take For You To Obtain A Water Connection?,-9 = Don't know (spontaneous); -6 = Still in process; -5 = Application denied; 1 = One day or less
+c14,"When You Applied For A Water Connection, Was An Informal Gift/Payment Requested?",-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Yes; 2 = No
+c33_BR,Version A: Cost to obtain water connection,-9 = Don't know (spontaneous)
+c15,Did You Experience Insufficient Water Supply For Production In Last FY?,-9 = Don't know (spontaneous); -7 = The establishment does not use water for production; 1 = Yes; 2 = No
+c16,Frequency of Incidents of Water Shortages In A Typical Month In Last FY,-9 = Don't know (spontaneous)
+c17,Average Length of Water Shortages (Affecting Production) In Last Fiscal Year,-9 = Don't know (spontaneous); 1 = One hour or less
+c35a_BR,"Version A: In Last FY, Losses As % of Annual Sales Due To Water Shortages",-9 = Don't know (spontaneous)
+c35b_BR,"Version A: In Last FY, Value of Losses Due To Water Shortages",-9 = Don't know (spontaneous)
+c22b,Establishment Has Its Own Website,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+c36_BR,Version A: Application To Obtain Fixed Broadband Internet Connection Over The La,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+c37_BR,Version A: How Many Days Did It Take For You To Obtain Internet Connection?,-9 = Don't know (spontaneous); -6 = Still in process; -5 = Application denied; 1 = One day or less
+c38_BR,Version A: Cost to obtain Internet connection,-9 = Don't know (spontaneous)
+c39,Did You Experience Internet Disruptions In Last FY?,-9 = Don't know (spontaneous); -7 = The establishment does not have an internet connection; 1 = Yes; 2 = No
+BEEc8,How many minutes of internet disruptions did the establishment experience in a g,-9 = Don't know (spontaneous)
+c40a,Average Length of Internet Disruptions: Hours,-9 = Don't know (spontaneous); 0 = Less than 1 hour
+c40b,Average Length of Internet Disruptions: Minutes,-9 = Don't know (spontaneous)
+c41a,"In Last FY, Losses As % of Annual Sales Due To Internet Disruptions",-9 = Don't know (spontaneous)
+c41b,"In Last FY, Value of Losses Due To Internet Disruptions",-9 = Don't know (spontaneous)
+c30a,How Much of An Obstacle: Electricity To Operations of This Establishment?,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+d1a1a,Establishment'S Main Product/Service Last FY,1 = Manufacturing of; 2 = Retail trade of; 3 = Wholesale trade of; 4 = Construction of; 6 = Provide services of; 51 = Hotel; 52 = Restaurant
+d1a1x,Main Product/Service (By The Largest % of Annual Sales) In Last Fiscal Year,
+d1a3,Main Product/Service: Percent of Total Annual Sales,-9 = Don't know (spontaneous)
+d2,"In Last Fiscal Year, What Were This Establishment’S Total Annual Sales?",-9 = Don't know (spontaneous)
+d2x,Please Also Write Out The Number,
+d2a1,What were the establishment's sales 2 years ago?,-9 = Don't know (spontaneous)
+d2a1x,Please Also Write Out The Number,
+n3,What were the establishment's sales 3 years ago?,-9 = Don't know (spontaneous); -7 = Establishment was not in business in Fiscal Year
+d3a,% of Sales: National Sales,-9 = Don't know (spontaneous)
+d3b,% O Sales: Indirect Exports,-9 = Don't know (spontaneous)
+d3c,% of Sales: Direct Exports,-9 = Don't know (spontaneous)
+d1a6a,Total number of hotel rooms in the last FY,-9 = Don't know (spontaneous)
+d1a6b,Total areas of rooms in the last FY,-9 = Don't know (spontaneous)
+d1a6c,Specify units,1 = Square Feet; 2 = Square Yards; 3 = Square Meters
+d31x_BR,Version A: Main destination of exports (country code),
+d32_BR,Version A: Main point of exit,-9 = Don't know (spontaneous); 1 = Airport; 2 = Land border crossing; 3 = Seaport
+d4a,Average duration to clear customs (days),-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 0 = Less than one day
+d4b,Average duration to clear customs (hours),-9 = Don't know (spontaneous)
+d33a_BR,"Version A: In Last FY, Avg. Num. of Days For Exported Goods To Clear all border",-9 = Don't know (spontaneous); 0 = Less than one day
+d33b_BR,"Version A: If less than a day, total hours for exported goods to clear all borde",-9 = Don't know (spontaneous)
+d34_BR,Version A: Average cost of complying with all export requirements (% of value of,-9 = Don't know (spontaneous)
+d35_BR,Version A: Goods expored digitally valued below the de minimis threshold of dest,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+d36a_BR,Version A: Average duration to ship digital exports (days),-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 0 = Less than one day
+d36b_BR,Version A: Average duration to ship digital exports (hours),-9 = Don't know (spontaneous)
+d37_BR,Version A: Average cost of digital exports (% of total value of exported goods),-9 = Don't know (spontaneous)
+d8,In What Year Did This Establishment First Export Directly or Indirectly?,-9 = Don't know (spontaneous)
+d12a,% of Material Inputs And Supplies of Domestic origin In Last Fiscal Year,-9 = Don't know (spontaneous)
+d12b,% of Material Inputs And Supplies of Foreign origin In Last Fiscal Year,-9 = Don't know (spontaneous)
+d13,Were Any of These Material Inputs And Supplies Imported Directly?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+d38x_BR,Version A: Main origin of imports (country code),
+d39_BR,Version A: Main point of entry,-9 = Don't know (spontaneous); 1 = Airport; 2 = Land border crossing; 3 = Seaport
+d14a,Avg. Num. of Days For Imported Goods To Clear Customs In Last Fiscal Year,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous)
+d14b,Average duration to clear customs for imports (hours),-9 = Don't know (spontaneous)
+d40a_BR,Version A: Average duration to clear all border control agencies (days),-9 = Don't know (spontaneous); 0 = Less than one day
+d40b_BR,Version A: Average duration to clear all border control agencies (hours),-9 = Don't know (spontaneous)
+d41_BR,Version A: Costs to comply with export requirements (% of value of products dire,-9 = Don't know (spontaneous)
+d30a,How Much of An Obstacle: Transport?,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+d30b,How Much of An Obstacle: Customs And Trade Regulations?,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+r1,What Happened When Problem In The Production Process/Services Provision Arose?,"-9 = Don't know (spontaneous); -7 = DOES NOT APPLY (SPONTANEOUS); 1 = We fixed it but did not take further action; 2 = We fixed it and took action to make sure it did not happen again; 3 = We fixed it and took action to make sure that it did not happen again, and had a continuous improvement process to anticipate problems like these in advance; 4 = No action was taken"
+r2,Did This Establishment Monitor Any Production/Service Performance Indicators?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+r3,How Many Production/Service Provision Performance Indicators Were Monitored?,-9 = Don't know (spontaneous); 1 = 1-2 production performance indicators; 2 = 3-9 production performance indicators; 3 = 10 or more production performance indicators
+r4,Did This Establishment Have Production/Service Provision Targets?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+r5,What Best Describes The Time Frame of Production/Service Provision Targets?,-9 = Don't know (spontaneous); 1 = Main focus was on short-term (less than one year) production targets; 2 = Main focus was on long-term (one year or more) production targets; 3 = Combination of short term and long term production targets
+r6,How Easy To Achieve Its Production/Service Provision Targets?,-9 = Don't know (spontaneous); 1 = Possible to achieve without much effort; 2 = Possible to achieve with some effort; 3 = Possible to achieve with normal amount of effort; 4 = Possible to achieve with more than normal effort; 5 = Only possible to achieve with extraordinary effort; 6 = Targets were not achieved
+r7,Who Was Aware of The Production/Service Provision Targets At This Establishment?,-9 = Don't know (spontaneous); 1 = Only senior managers; 2 = Most managers and some production workers; 3 = Most managers and most production workers; 4 = All managers and most production workers
+r8,Was There Performance Bonuses Based On Production/Service Provision Targets?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+r9,What Were Managers' Performance Bonuses Usually Based On?,-9 = Don't know (spontaneous); 1 = Their own performance; 2 = Their team's or shift performance; 3 = The establishment’s performance; 4 = The firm’s performance
+r10,What Was The Primary Way Non-Managers Were Promoted?,"-9 = Don't know (spontaneous); -7 = DOES NOT APPLY (SPONTANEOUS); 1 = Promotions were based solely on performance and ability; 2 = Promotions were based partly on performance and ability, and partly on other factors (for example, tenure or family connections); 3 = Promotions were based mainly on factors other than performance and ability (for example, tenure or family connections); 4 = Non-managers are normally not promoted"
+r11,When Was An Under-Performing Non-Manager Reassigned or Dismissed?,-9 = Don't know (spontaneous); -7 = DOES NOT APPLY (SPONTANEOUS); 1 = Within 6 months of identifying non-manager under-performance; 2 = After 6 months of identifying non-manager under-performance; 3 = Rarely or never
+ge0_BR,"Version B: Inspection, regarding its emissions, pollution, waste disposal, or en",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+ge1_BR,Version B: Did this firm have written strategic objectives that mention environm,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+ge2a_BR,Version B: How many times has this establishment been impacted by floods?,-9 = Don't know (spontaneous)
+ge2b_BR,Version B: How many times has this establishment been impacted by hurricanes or,-9 = Don't know (spontaneous)
+ge2c_BR,Version B: How many times has this establishment been impacted by earthquakes?,-9 = Don't know (spontaneous)
+ge2d_BR,Version B: How many times has this establishment been impacted by other natural,-9 = Don't know (spontaneous)
+ge3_BR,Version B: Did this establishment experience damage of physical assets due to ex,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+ge3a_BR,Version B: Monetary damage of physical assets that resulted from extreme weather,-9 = Don't know (spontaneous)
+ge4_BR,Version B: Does the establishment have any early warning systems for extreme wea,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+ge5_BR,Version B: Does the establishment have any insurance for damages from extreme we,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+ge6_BR,"Version B: Over the last three years, did this establishment monitor its energy",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+ge6a_BR,"Version B: Over the last three years, did this establishment have targets for en",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+ge6b_BR,"Version B: Over the last three years, what sort of targets for energy consumptio",-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Quality targets only; 2 = Expenditure targets only; 3 = Both quality and expenditure targets
+ge7_BR,"Version B: Over the last three years, did this establishment monitor its CO2 emi",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+ge7a_BR,"Version B: Over the last three years, did this establishment have targets for CO",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+ge7b_BR,"Version B: Over the last three years, what sort of targets for CO2 emissions did",-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Only quantity per unit of output targets; 2 = Only absolute quantity targets; 3 = Absolute and per unit of output quantity targets
+ge8a_BR,"Version B: Over the last three years, did this establishment adopt heating and c",-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge8b_BR,"Version B: Over the last three years, did this establishment adopt more climate-",-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge8c_BR,"Version B: Over the last three years, did this establishment adopt machinery and",-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge8d_BR,"Version B: Over the last three years, did this establishment adopt energy manage",-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge8e_BR,"Version B: Over the last three years, did this establishment adopt waste minimiz",-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge8f_BR,"Version B: Over the last three years, did this establishment adopt air pollution",-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge8g_BR,"Version B: Over the last three years, did this establishment adopt water managem",-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge8h_BR,"Version B: Over the last three years, did this establishment adopt upgrades of v",-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge8i_BR,"Version B: Over the last three years, did this establishment adopt improvements",-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge8j_BR,"Version B: Over the last three years, did this establishment adopt other polluti",-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge9a_BR,Version B: Energy Star rated appliances have been adopted and currently used by,-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge9c_BR,Version B: Energy efficient lighting has been adopted and currently used by this,-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge9d_BR,Version B: Programmable thermostats have been adopted and currently used by this,-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge9e_BR,Version B: Cogeneration (combined heat and power) has been adopted and currently,-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+ge9f_BR,Version B: Energy efficient manufacturing equipment has been adopted and current,-9 = Don't know (spontaneous); -7 = Does not apply (sponatneous); 1 = Yes; 2 = No
+e1,"In Last FY, Main Market For Establishment'S Main Product",-9 = Don't know (spontaneous); 1 = Local – main product sold mostly in same municipality where establishment is located; 2 = National – main product sold mostly across the country where establishment is located; 3 = International
+e2b,Competitors For The Main Product/Service In The Main Market,-9 = Don't know (spontaneous); -4 = Too many to count
+e31a_BR,Version A: Market share of largest competitor in firm's main market (as value of,-9 = Don't know (spontaneous); 1 = Above 90%; 2 = Between 50% and 90%; 3 = Below 50%
+e31b_BR,Version A:Market share of largest competitor in firm's main market (as value of,-9 = Don't know (spontaneous)
+e6,Do You Use Technology Licensed From A Foreign-Owned Company?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+e11,Does This Establishment Compete Against Unregistered or Informal Firms?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+IDe1,Likelihood of taxes being the main reason for competitors to remain informal,-9 = Don't know (spontaneous); -8 = Refusal (sponatneous); 1 = Very likely; 2 = Likely; 3 = Unlikely; 4 = Not likely at all
+e32_BR,Version A: Change in the level of competition in main poduct market,"-9 = Don't know (spontaneous); 1 = Yes, there is more competition; 2 = Yes, there is less competition; 3 = No change"
+e33_BR,Version A: Relative ability to set prices compared to competitors,-9 = Don't know (spontaneous); -7 = Prices are regulated; -6 = Prices are set by headquarters; 1 = Yes; 2 = No
+c42_BR,Version A: How difficult to switch internet providers?,-9 = Don't know (spontaneous); -7 = There is only one available internet provider; 1 = Unable to change provider; 2 = With some difficulty; 3 = With little difficulty; 4 = With no difficulty at all
+e34_BR,Version A: SOEs operating in the establishment's main market?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+e35_BR,Version A: Effect of SOE in main market on ability to grow and expand,-9 = Don't know (spontaneous); -7 = No State Owned Enterprise; 1 = Positively; 2 = Not at all; 3 = Negatively
+j42_BR,"Version A: Over the last three years, has this establishment held a government c",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+j43_BR,Version A: Typical number of days to receive payment under govt contract,-9 = Don't know (spontaneous); 1 = Less than one day
+e30,How Much of An Obstacle: Practices of Competitors In Informal Sector?,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+h1,New Products/Services Introduced Over Last 3 Yrs,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+h2,New Products/Services Also New For Thr Establishment'S Main Market,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+h3x,Describe In Detail The Main New or Significantly Improved Product or Service,
+h4x,Describe How The Main New/Significantly Improved Product or Service Is Different,
+h5,"During Last 3 Yrs, Establishment Introduced New/Significantly Improved Process",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+h6x,Describe Main New/Significantly Improved Process This Establishment Introduced,
+h7x,How The Main New/Significantly Improved Process Is Different,
+h8,"During Last Fiscal Year, Establishment Spent On R&D (Excl Market Research)?",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+h9,"How Much Spent On R&D, Either In-House or External?",-9 = Don't know (spontaneous)
+f1,"In Last FY, What Was The Capacity Utilization (%) of This Establishment?",-9 = Don't know (spontaneous)
+g2,Applic. To Obtain A Construction-Related Permit Submitted Over The Last 2 Years,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+g3,How Many Days Did It Take For You To Obtain A Construction-Related Permit?,-9 = Don't know (spontaneous); -6 = Still in process; -5 = Application denied; 1 = One day or less
+g4,Informal Gift/Payment Expected or Requested For A Construction-Related Permit,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Yes; 2 = No
+g5a,What Is The Total Selling Area In This Establishment?,-9 = Don't know (spontaneous)
+g5b,The Area Is Measured In:,1 = Square Feet; 2 = Square Yards; 3 = Square Meters; 4 = Other
+g5bx,Specify Other Units (If Not Included Above) The Area Is Measured In,
+g31_BR,"Version A: Over the last two years, did this establishment apply for an occupanc",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+g32_BR,Version A: Approximate time (in days) to obtain occupancy permit after latest ap,-9 = Don't know (spontaneous); -6 = Still in process; -5 = Application denied; 1 = Less than one day
+g33_BR,Version A: Total cost of obtaining that occupancy permit,-9 = Don't know (spontaneous)
+g30a,How Much of An Obstacle: Access To Land?,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+o1_BR,"Version A: In the last three years, has this establishment had any commercial di",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+o2_BR,"Version A: Use of courts, arbitration, etc., to (or attempt to ) resolve commerc",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+o3a_BR,Version A: Reliable alternative to courts for resolving commercial disputes: Arb,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+o3b_BR,Version A: Reliable alternative to courts for resolving commercial disputes:Medi,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+k3a,% of Working Capital Financed From Internal Funds/Retained Earnings,-9 = Don't know (spontaneous)
+k3bc,% of Working Capital Borrowed From Banks,-9 = Don't know (spontaneous)
+k3e,% of Working Capital Borrowed From Non-Bank Financial Institutions,-9 = Don't know (spontaneous)
+k3f,% of Working Capital Purchased On Credit/Advances From Suppliers /Customers,-9 = Don't know (spontaneous)
+k3hd,"% of Working Capital Financed By Other (Money Lenders, Friends, Relatives, Etc)",-9 = Don't know (spontaneous)
+k4,Did This Establishment Purchase Any Fixed Assets In Last FY?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+n5a,Total Annual Expenditure For Purchases of Equipment In Last FY,-9 = Don't know (spontaneous)
+n5b,Total Annual Expenditure For Purchases of Land And Buildings In Last FY,-9 = Don't know (spontaneous)
+k5a,"Last FY, % Fixed Assets Funded By: Internal Funds/Retained Earnings",-9 = Don't know (spontaneous)
+k5a1,Fixed Assets - Value Internal Funds or Retained Earnings,-9 = Don't know (spontaneous)
+k5i,"Last FY, % Fixed Assets Funded By: Owners’ Contributions or Issued New Equity",-9 = Don't know (spontaneous)
+k5i1,Fixed Assets - Value Owners’ Contribution or Issued New Equity Shares,-9 = Don't know (spontaneous)
+k5bc,"Last FY, % Fixed Assets Funded By: Bank Borrowing",-9 = Don't know (spontaneous)
+k5bc1,Fixed Assets - Value Borrowed From Banks,-9 = Don't know (spontaneous)
+k5e,"Last FY, % Fixed Assets Funded By: Non-Bank Financial Institutions",-9 = Don't know (spontaneous)
+k5e1,Fixed Assets - Value Borrowed From Non-Bank Financial Institutions,-9 = Don't know (spontaneous)
+k5f,"Last FY, % Fixed Assets Funded By: Credit From Suppliers/Advances From Customers",-9 = Don't know (spontaneous)
+k5f1,"Fixed Assets - Value Purchases On Credit From Suppliers, Advances From Customers",-9 = Don't know (spontaneous)
+k5hdj,"Last FY, % Fixed Assets Funded By: Other (Money Lenders\Friends\Relatives\Etc)",-9 = Don't know (spontaneous)
+k5hdj1,Fixed Assets - Value Other,-9 = Don't know (spontaneous)
+k4b,Purchase Any New/Used Fixed Assets?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+n5c,Total Annual Expenditure For Purchases of Equipment In Year Prior To Last FY,-9 = Don't know (spontaneous)
+n5d,Total Annual Expenditure On Land And Buildings In Year Prior To Last FY,-9 = Don't know (spontaneous)
+k6,Does This Establishment Have A Checking And\or Saving Account?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+k7,"At This Time, Does This Establishment Have An Overdraft Facility?",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+k82,Line of credit or a loan from a financial institution,"-9 = Don't know (spontaneous); 1 = Yes, a loan only; 2 = Yes, a line of credit only; 3 = Yes, both a line of credit and a loan; 4 = No"
+k9,Type of Financial Institution That Granted The Line of Credit or Loan,-9 = Don't know (spontaneous); 1 = Private commercial banks; 2 = State-owned banks or government agency; 3 = Non-bank financial institutions; 4 = Other
+k10,Year When The Most Recent Loan/Line of Credit Approved,-9 = Don't know (spontaneous)
+k11,"For The Most Recent Loan, What Was The Value At The Time of Approval?",-9 = Don't know (spontaneous); -8 = Refusal (spontaneous)
+k13,Financing Required For The Most Recent Line of Credit or Loan,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+k14a,"Type of Collateral Required For The Most Recent Loan? Land, Buildings",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+k14b,Type of Collateral Required For The Most Recent Loan? Equipment,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+k14c,Type of Collateral Required For The Most Recent Loan? Accounts,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+k14d,Type of Collateral Required For The Most Recent Loan? Personal Assets,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+k14e,Type of Collateral Required For The Most Recent Loan? Other,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+k15a,Value of Collateral Required For The Most Recent Credit/Loan,-9 = Don't know (spontaneous)
+k15b,Total Number of Open Lines of Credit and Outstanding Loans,-9 = Don't know (spontaneous)
+k15c,Total Outstanding Balance of All Open Lines of Credit and Loans (LCU),-9 = Don't know (spontaneous); -8 = Refusal (spontaneous)
+k15d,Outstanding Personal Loans Used To Finance Establishment'S Business Activities?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+k162,Did this establishment apply for any lines of credit or loans?,"-9 = Don't know (spontaneous); 1 = Yes, a loan only; 2 = Yes, a line of credit only; 3 = Yes, both a line of credit and a loan; 4 = No"
+k17,Main Reason For Not Applying For New Loans or New Lines of Credit,-9 = Don't know (spontaneous); 1 = No need for a loan - establishment had sufficient capital; 2 = Application procedures were complex; 3 = Interest rates were not favorable; 4 = Collateral requirements were too high; 5 = Size of loan and maturity were insufficient; 6 = Did not think it would be approved; 7 = Other
+k31_BR,Version A: Total cost to apply for most recent loan,-9 = Don't know (spontaneous)
+k32_BR,Version A: Days to receive a decision about most recent loan application,-9 = Don't know (spontaneous)
+k20a1,What Was The Outcome of That Most Recent Application For Loan/Line of Credit?,-9 = Don't know (spontaneous); -6 = Still in process; 1 = Application was approved in full; 2 = Application was approved in part; 3 = Application was rejected; 4 = Application was withdrawn
+k21,Financial Statements Checked & Certified By External Auditor In Last FY?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+k33_BR,Version A: Percentage of sales through e-payments in a typical month,-9 = Don't know (spontaneous)
+k34_BR,Version A: Main type of e-payment accepted,"-9 = Don't know (spontaneous); 1 = Internet and mobile banking, including direct debit transfer; 2 = Debit cards; 3 = Credit cards; 4 = E-money and e-wallet, excluding mobile money; 5 = Mobile money; 6 = Other"
+k35_BR,Version A: Avg. days to receive main type of e-payment,-9 = Don't know (spontaneous); 0 = Payment received in less than a day
+k36_BR,Version A: Cost per transaction (% of transaction) to receive main type of e-pay,-9 = Don't know (spontaneous)
+k37_BR,Version A: Monthly fees and subscription costs to receive main type of e-payment,-9 = Don't know (spontaneous)
+k38_BR,Version A: Percentage of payments made using e-payments,-9 = Don't know (spontaneous)
+k39_BR,Version A: Main type of e-payment used to make payments,"-9 = Don't know (spontaneous); 1 = Internet and mobile banking, including direct debit transfer; 2 = Debit cards; 3 = Credit cards; 4 = E-money and e-wallet, excluding mobile money; 5 = Mobile money; 6 = Other"
+k40_BR,Version A: Cost per transaction (% of transaction) to make main type of e-paymen,-9 = Don't know (spontaneous)
+k30,How Much of An Obstacle: Access To Finance,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+h7a,"The Court System Is Fair, Impartial And Uncorrupted",-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+IDj1,"Extent of agreement that the Directorate General of Taxes is fair, impartial and",-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+j31_BR,"Version A: In resolving commercial disputes, courts are independent and impartia",-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+j2,What % of Senior Management Time Was Spent In Dealing With Govt Regulations?,-9 = Don't know (spontaneous); 0 = No time was spent
+j3,"Over The Last 12 Months, Was This Establishment Inspected By Tax officials?",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+j4,Frequency of Inspections/Requirement For Meeting By Tax officials,-9 = Don't know (spontaneous)
+j5,In Any of These Inspections Was A Gift/Informal Payment Requested ?,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Yes; 2 = No
+j32,"In the last three years, has this establishment been audited by the tax authorit",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+j33,Duration of audit in weeks,-9 = Don't know (spontaneous); -5 = Audit is ongoing; 1 = One week or less
+t1a,Was this establishment subject to National Corporate Income Tax,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+t1b,Was this establishment subject to National Turnover Tax,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+t1c,Was this establishment subject to National Value Added Tax,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+j34,Did this establishment outsource any tax-related activities,"-9 = Don't know (spontaneous); 1 = Yes, fully; 2 = Yes, partially; 3 = No"
+j35a,"Total annual number of hours required for the preparation, filing, and payment o",-9 = Don't know (spontaneous); 1 = One hour or less
+j35b,"Average number of hours per month required for the preparation, filing, and paym",-9 = Don't know (spontaneous); 1 = One hour or less
+j36,Did this establishment file its taxes electronically?,"-9 = Don't know (spontaneous); 1 = Yes, fully; 2 = Yes, partially; 3 = No"
+j37,Did this establishment pay its taxes electronically?,"-9 = Don't know (spontaneous); 1 = Yes, fully; 2 = Yes, partially; 3 = No"
+j38_BR,"Version A: In the last three years, has this establishment applied for a VAT cas",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+j39_BR,"Version A: In reference to the most recent VAT cash refund, how many weeks did i",-9 = Don't know (spontaneous); -5 = Refund still outstanding; 1 = One week or less
+j40_BR,Version A: What was the main reason this establishment did not apply for a VAT c,-9 = Don't know (spontaneous); 1 = VAT cash refunds take too long to receive; 2 = The application for a VAT cash refund is too complicated; 3 = The establishment did not need to apply for a VAT cash refund
+j6a,Government Contract Secured (or Attempted) In The Last 12 Months?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+j41,How difficult does this establishment find the administrative requirements to pa,-9 = Don't know (spontaneous); 1 = Very much difficult; 2 = Moderately difficult; 3 = Somewhat difficult; 4 = Not difficult at all
+j7a,Percent of Total Annual Sales Paid In Informal Payments,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 0 = No payments or gifts are paid
+j7b,Total Annual Informal Payment,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 0 = No payments or gifts are paid
+j10,Application To Obtain An Import License Submitted Over The Last 2 Years?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+j11,How Many Days Did It Take To Obtain Your Import License?,-9 = Don't know (spontaneous); -6 = Still in process; -5 = Application denied; 1 = One day or less
+j12,"When You Applied For An Import License, Was An Informal Gift/Payment Requested?",-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Yes; 2 = No
+j13,Application To Obtain An Operating License Submitted Over Last 2 Years?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+j14,How Many Days Did It Take To Obtain Your Operating License?,-9 = Don't know (spontaneous); -6 = Still in process; -5 = Application denied; 1 = One day or less
+j15,When You Applied For Operating License Was An Informal Gift/Payment Requested?,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Yes; 2 = No
+j30a,How Much of An Obstacle: Tax Rates,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+j30b,How Much of An Obstacle: Tax Administrations,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+j30c,How Much of An Obstacle: Business Licensing And Permits,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+j30e,How Much of An Obstacle: Political Instability,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+j30f,How Much of An Obstacle: Corruption,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+h30,How Much of An Obstacle: Courts,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+i30,How Much of An Obstacle: Crime,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+j30_taxrate_pos,J30: rotation position 1,
+j30_taxadmin_pos,J30: rotation position 2,
+j30_permit_pos,J30: rotation position 3,
+j30_instability_pos,J30: rotation position 4,
+j30_corruption_pos,J30: rotation position 5,
+j30_courts_pos,J30: rotation position 6,
+j30_crime_pos,J30: rotation position 7,
+IDa1,Number of true statements for IDa1,-7 = Refusal (spontaneous)
+IDa2,Number of true statements for IDa2,-7 = Refusal (spontaneous)
+t2a,"On average, what percentage do establishments like this one pay of the VAT they",-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous)
+t2b,"On average, what percentage do establishments like this one pay of the CIT/Turno",-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous)
+t3,What is the main reason why some of the other firms are not fully compliant with,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Tax System is unfair; 2 = Tax rates are too high; 3 = Establishments cannot afford to pay; 4 = Non-compliance is common among businesses; 5 = The government is not responsive to the needs of the businesses; 6 = Businesses believe they won’t get caught; 7 = Other
+t4a,How easy or difficult is it for establishments like this one pay to avoid paying,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Very easy; 2 = Easy; 3 = Difficult; 4 = Very difficult
+t4b,How easy or difficult is it for establishments like this one pay to avoid paying,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Very easy; 2 = Easy; 3 = Difficult; 4 = Very difficult
+t5a,Extent of agreement that the government always have the right to make businesses,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t5b,Extent of agreement that firms should refuse to pay taxes until they get better,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t5c,Extent of agreement that it is important for businesses to pay taxes.,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t6,Opinion on a firm which has not paid the taxes it owes to the government,"-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Not wrong at all; 2 = Wrong, but understandable; 3 = Wrong, and punishable"
+t7,Agreement with statement 1 or 2 paying taxes with or without believing in govern,"-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Statement 1: Businesses should always pay their taxes, even if they disagree with the government; 2 = Statement 2: Businesses should only pay taxes if they believe in the government"
+t8a_BR,Version B: Extent of agreement that public services provided by the government j,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t8b_BR,Version B: Extent of agreement that government is doing a good job of providing,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t8c_BR,Version B: Extent of agreement that additional services benefiting this establis,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t9a_BR,Version B: Extent of agreement that larger firms are more likely to pay the full,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t9b_BR,Version B: Extent of agreement that smaller firms are more likely to pay the ful,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t9c_BR,Version B: Extent of agreement that politically connected firms are more likely,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t10a_BR,Version B: Extent of agreement that tax officials were professional and impartia,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t10b_BR,Version B: Extent of agreement that tax officials were transparent when making d,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t10c_BR,Version B: Extent of agreement that establishment was able to voice complaints,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t10d_BR,Version B: Extent of agreement that expected deadlines for paying taxes were cle,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t10e_BR,Version B: Extent of agreement that the establishment was able to appeal the dec,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t10f_BR,Version B: Extent of agreement that tax officials applied taxes consistently,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t11a_BR,Version B: Establishment’s understanding of compliance with VAT,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Good understanding; 2 = Average understanding; 3 = Poor understanding
+t11b_BR,Version B: Establishment’s understanding of compliance w CIT/TO Tax,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Good understanding; 2 = Average understanding; 3 = Poor understanding
+t12_BR,Version B: Extent of agreement that complying with VAT obligations is complicate,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t13_BR,Version B: Main factor that makes complying with VAT obligations complicated,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Complexity of tax submission forms; 2 = Unclear procedures; 3 = Conflicting requirements; 4 = Low quality of tax guidance provided by authorities; 5 = Frequency of changes in policies; 6 = Volume of information requirements; 7 = Other
+t14_BR,Version B: Change in complication in complying with VAT obligations over the pas,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = More complicated; 2 = Less complicated; 3 = Remained the same
+t15_BR,Version B: Main factor that has made VAT obligations more complicated,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Increased complexity of tax submission forms; 2 = Increased ambiguity in procedures; 3 = More conflicting requirements; 4 = Lower quality of tax guidance provided by authorities; 5 = More frequency of changes in policies; 6 = Increased volume of information requirements; 7 = Other
+t16_BR,Version B: Main impact of the increased VAT complexity on this establishment,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Additional accounting staff employed; 2 = Increased costs for tax services provided by other firms; 3 = Lengthened amount of time needed to calculate and submit tax returns; 4 = No impact
+t17_BR,Version B: Main factor that has made VAT obligations less complicated,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Reduced complexity of tax submission forms; 2 = Reduced ambiguity in procedures; 3 = Less conflicting requirements; 4 = Higher quality of tax guidance provided by authorities; 5 = Less frequency of changes in policies; 6 = Reduced volume of information requirements; 7 = Other
+t18_BR,Version B: Most complicated process of compliance with VAT obligations,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Paying the collected VAT; 2 = Calculating VAT credits; 3 = Claiming VAT credits; 4 = Exempted categories of goods and services; 5 = VAT eligibility thresholds; 6 = Provisions for tax deductions; 7 = Other
+t22_BR,Version B: Extent of agreement that complying with CIT/Turnover Tax obligations,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Strongly disagree; 2 = Tend to disagree; 3 = Tend to agree; 4 = Strongly agree
+t23_BR,Version B: Main factor that makes complying with CIT/Turnover Tax obligations co,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Complexity of tax submission forms; 2 = Unclear procedures; 3 = Conflicting requirements; 4 = Low quality of tax guidance provided by authorities; 5 = Frequency of changes in policies; 6 = Volume of information requirements; 7 = Other
+t24_BR,Version B: Change in complication in complying with CIT/Turnover Tax obligations,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = More complicated; 2 = Less complicated; 3 = Remained the same
+t25_BR,Version B: Main factor that has made CIT/Turnover Tax obligations more complicat,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Increased complexity of tax submission forms; 2 = Increased ambiguity in procedures; 3 = More conflicting requirements; 4 = Lower quality of tax guidance provided by authorities; 5 = More frequency of changes in policies; 6 = Increased volume of information requirements; 7 = Other
+t26_BR,Version B: Main impact of the increased CIT/Turnover Tax complexity on this esta,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Additional accounting staff employed; 2 = Increased costs for tax services provided by other firms; 3 = Lengthened amount of time needed to calculate and submit tax returns; 4 = No impact
+t27_BR,Version B: Main factor that has made CIT/Turnover Tax obligations less complicat,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous); 1 = Reduced complexity of tax submission forms; 2 = Reduced ambiguity in procedures; 3 = Less conflicting requirements; 4 = Higher quality of tax guidance provided by authorities; 5 = Less frequency of changes in policies; 6 = Reduced volume of information requirements; 7 = Other
+t28_BR,Version B: Most complicated process of compliance with CIT/Turnover Tax obligati,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Paying the tax; 2 = Calculating the taxable income; 3 = Multiple tax rates; 4 = Tax eligibility thresholds; 6 = Provision for tax deductions; 7 = Other
+t29_BR,"Version B: Last 3 years, did establishment use the govt taxpayer services for co",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+t30_BR,Version B: Effectiveness of govt services in helping comply w/ tax obligations,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Very effective; 2 = Somewhat effective; 3 = Not effective
+t31_BR,Version B: Most beneficial improvement for government's services in helping with,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous); 1 = Guidance on filing of tax returns; 2 = Guidance on tax calculations; 7 = Other
+l1,"Num. Permanent, Full-Time Employees At End of Last Fiscal Year",-9 = Don't know (spontaneous)
+l1a,Part-time workers employed last fiscal year,-9 = Don't know (spontaneous); 0 = No part-time workers
+l2,"Num. Permanent, Full-Time Employees At End of 3 Fiscal Years Ago",-9 = Don't know (spontaneous); -7 = Establishment was not in business
+l3a,Num. Full-Time Employees At End of Last FY: Production Workers,-9 = Don't know (spontaneous)
+l3b,Num. Full-Time Employees At End of Last FY: Non-Production Workers,-9 = Don't know (spontaneous)
+l4a1,"Num. of Permanent, Full-Time Skilled Production Workers, Last FY",-9 = Don't know (spontaneous)
+l4a2,"Num. of Permanent, Full-Time Semi-skilled Production Workers, Last FY",-9 = Don't know (spontaneous)
+l4b,"Num. of Permanent, Full-Time Low-skilled Production Workers, Last FY",-9 = Don't know (spontaneous)
+l5a,Num. Full-Time Employees At End of Last FY: Female Production Workers,-9 = Don't know (spontaneous)
+l5b,Num. Full-Time Employees At End of Last FY: Female Non-Production Workers,-9 = Don't know (spontaneous)
+l5,Num. Full-Time Employees At End of Last FY: Female,-9 = Don't know (spontaneous)
+l6,Num. Full-Time Temporary Employees At End of Last FY,-9 = Don't know (spontaneous); 0 = No full-time seasonal or temporary workers
+l6a,"Female Temporary, Full-Time Workers Employed Throughout Last FY",-9 = Don't know (spontaneous)
+l8,Avg. Length of Employment of All Full-Time Temporary Employees In Last FY,-9 = Don't know (spontaneous); 1 = One month or less
+l9b,% of Full Time Workers Completed High School End of Last FY,-9 = Don't know (spontaneous)
+l9b1,Number of Full Time Workers Completed High School,-9 = Don't know (spontaneous)
+l10,"Formal Training Programs For Permanent, Full-Time Employees In Last FY",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+l11a,% Permanent Full-Time Production Employees Received Formal Training In Last FY,-9 = Don't know (spontaneous); 0 = No employees trained
+l11a1,Training Programs Amount: Production Full-Time Permanent Employees Trained,-9 = Don't know (spontaneous); 0 = No employees trained
+l11b,% Permanent Fulltime Nonproduction Employees Received Formal Training In Last FY,-9 = Don't know (spontaneous); 0 = No employees trained
+l11b1,Training Programs Amount:Non-Production Full-Time Permanent Employees Trained,-9 = Don't know (spontaneous); 0 = No employees trained
+l12a,% Permanent Full-Time Female Employees Received Formal Training In Last FY,-9 = Don't know (spontaneous); 0 = No female employees trained
+l12a1,Training Programs Amount: Full-Time Permanent Female Employees Trained,-9 = Don't know (spontaneous); 0 = No female employees trained
+l31_BR,Version A: How many new permanent full-time workers did the establishment need t,-9 = Don't know (spontaneous); 0 = No need to hire any new permanent full-time workers
+l32_BR,Version A: How many new permanent full-time workers did the establishment hire i,-9 = Don't know (spontaneous); 0 = No hires
+l33_BR,Version A: What was the main reason why this establishment did not hire more per,-9 = Don't know (spontaneous); 1 = Non-wage labor costs were too high; 2 = Legally required minimum wage or cost of dismissal were too high; 3 = Lack of skilled labor; 4 = Competitive labor costs and benefits were too high; 5 = Not enough budget or headquarters did not authorize the hiring; 6 = Other
+l34_BR,"Version A: During the last three years, has this establishment dismissed any per",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+l35_BR,"Version A: Weeks to dismiss permanent, full-time worker after notice",-9 = Don't know (spontaneous); -6 = Still in progress; 1 = One week or less
+l36_BR,"Version A: Typical severance payment, in weeks of paid salary, for a dismissed p",-9 = Don't know (spontaneous); 0 = No severance was paid
+l37_BR,"Version A: Over the last three years, has this establishment been involved in an",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+l38_BR,Version A: How many weeks did it typically take from the moment the dispute aros,-9 = Don't know (spontaneous); -7 = No dispute has been resolved; 1 = One week or less
+l39_BR,Version A: Cost to resolve a typical labor dispute,-9 = Don't know (spontaneous)
+l40_BR,"Version A: In the last fiscal year, was this establishment visited or inspected",-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+l41_BR,"Version A: As a result of these inspections, was a report issued to the establis",-9 = Don't know (spontaneous); -5 = No inspection has been concluded; 1 = Yes; 2 = No
+IDl1_BR,Version B: Does this establishment offer maternity leave for its employees?,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+IDl2_BR,Version B: Duration of maternity leave offered by this establishment (in weeks)?,-9 = Don't know (spontaneous); 1 = Less than one week
+IDl3_BR,Version B: Eligibility for a basic salary during the maternity leave period,-9 = Don't know (spontaneous); 1 = Yes; 2 = No
+IDl4,Percent of workers reported for the purpose of payroll taxes,-9 = Don't know (spontaneous); -8 = Refusal (spontaneous)
+l30a,How Much of An Obstacle: Labor Regulations?,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+l30b,How Much of An Obstacle: Inadequately Educated Workforce?,-9 = Don't know (spontaneous); -7 = Does not apply; 0 = No obstacle; 1 = Minor obstacle; 2 = Moderate obstacle; 3 = Major obstacle; 4 = Very severe obstacle
+m1a,Biggest Obstacle Affecting The Operation of This Establishment,"-9 = Don't know (spontaneous); -7 = Does not apply; 1 = Access to finance; 2 = Access to land; 3 = Business licensing and permits; 4 = Corruption; 5 = Courts; 6 = Crime, theft and disorder; 7 = Customs and trade regulations; 8 = Electricity; 9 = Inadequately educated workforce; 10 = Labor regulations; 11 = Political instability; 12 = Practices of competitors in the informal sector; 13 = Tax administration; 14 = Tax rates; 15 = Transport"
+m1a_finance_pos,m1a: Position of Access to Finance,
+m1a_land_pos,m1a: Position of Access to land,
+m1a_permit_pos,m1a: Position of Business licensing and permits,
+m1a_corruption_pos,m1a: Position of corruption,
+m1a_courts_pos,m1a: Position of Courts,
+m1a_crime_pos,"m1a: Position of Crime, theft and disorder",
+m1a_trade_pos,m1a: Position of Customs and trade regulations,
+m1a_electricity_pos,m1a: Position  of Electricity,
+m1a_workforce_pos,m1a: Position of Inadequately educated workforce,
+m1a_labor_pos,m1a: Position of Labor regulations,
+m1a_instability_pos,m1a: Position of Political instability,
+m1a_informal_pos,m1a: Position of Practices of competitors in the informal sector,
+m1a_taxadmin_pos,m1a: Position of Tax administration,
+m1a_taxrate_pos,m1a: Position of Tax rates,
+m1a_transport_pos,m1a: Position of Transport,
+n2a2_BR,"Version A: From Income Statement of last fiscal year, total annual costs of soci",-9 = Don't know (spontaneous)
+n2a,"Total Labor Cost (Incl. Wages, Salaries, Bonuses, Etc) In Last Fiscal Year",-9 = Don't know (spontaneous)
+n2b,Total Annual Costs of Electricity In Last Fiscal Year,-9 = Don't know (spontaneous)
+n2e,Cost of Raw Materials And Intermediate Goods Used In Prod. In Last Fiscal Year,-9 = Don't know (spontaneous)
+n2i,Total Annual Cost of Finished Goods/Materials Bought To Resell In Last FY,-9 = Don't know (spontaneous)
+n2a1,"Total Labor Cost (Incl. Wages, Salaries, Bonuses, Etc) 2 fiscal years ago",-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous)
+n2e1,Total Cost of Raw Materials And Intermediate Goods Used In Production,-9 = Don't know (spontaneous); -7 = Does not apply (spontaneous)
+n7a,Cost For Establishment To Re-Purchase All of Its Machinery,-9 = Don't know (spontaneous)
+n11_BR,"Version A: Cost of annual income-based taxes in the last fiscal year, share of t",-9 = Don't know (spontaneous); -8 = Refusal (spontaneous)
+n12_BR,"Version A: Cost of all consumption taxes in the last fisal year, percentage of t",-9 = Don't know (spontaneous); -8 = Refusal (spontaneous)
+a15d,Day,
+a15m,Month,
+a15y,Year,
+a15h,Hour,
+a15min,Minutes,
+a16,Perception of The Questions Regarding Opinions And Perceptions,1 = Truthful; 2 = Somewhat truthful; 3 = Not truthful
+a17,Responses To The Questions About Figures Are…,1 = Are taken directly from establishment records; 2 = Are estimates computed with some precision; 3 = Are arbitrary and unreliable numbers; 4 = Are in some case taken from books and in some case estimates
+a18,This Questionnaire Was Completed In:,1 = One visit in face-to-face interview with one person; 2 = One visit in face-to-face interview with different managers/staff; 3 = Several visits
+a19h,"If Option 2 or 3 In A.18, Estimate Duration of The Whole Interview: Hours",
+a19m,"If Option 2 or 3 In A.18, Estimate Duration of The Whole Interview: Minutes",
+a13,Supervisor Number,
+a3b,official Capital City?,1 = Yes; 2 = No
+a3c,Main Business City?,1 = Yes; 2 = No
+a3,Size of Locality,2 = City with population over 1 million; 3 = Over 250.000 to 1 million; 4 = 50.000 to 250.000; 5 = Less than 50.000
+d1a2_v4,Main Product/Service ISIC (Rev. 4) Code,
+stratificationpanelcode,panel code,0 = Fresh; 1 = Panel
+stratificationregioncode, stratification region code,"1 = Special Capital Region of Jakarta; 2 = West Java; 3 = East Java; 4 = Central Java; 5 = Banten; 6 = Special Region of Yogyakarta; 7 = Bali; 8 = East Nusa Tenggara; 9 = West Nusa Tenggara; 10 = Riau; 11 = West Sumatra; 12 = Aceh; 13 = Lampung; 14 = South Sumatra, Bengkulu, Jambi; 15 = The Bangka Belitung Islands, the Riau Islands; 16 = North Sumatra; 17 = West Kalimantan; 18 = South Kalimantan, Central Kalimantan; 19 = East Kalimantan, North Kalimantan; 20 = Sulawesi; 21 = Papua; 22 = Maluku Islands (Maluku and North Maluku)"
+stratificationsizecode,stratification size code,1 = Small (5-19); 2 = Medium (20-99); 3 = Large (100 or more)
+stratificationsectorcode,stratification sector code,1 = Food; 2 = Textiles; 3 = Garments; 4 = Leather Products; 5 = Chemicals & Chemical Products; 6 = Rubber & Plastics Products; 7 = Non-Metallic Mineral Products; 8 = Fabricated Metal Products; 9 = Machinery & Equipment; 10 = Motor Vehicles; 11 = Other Manufacturing; 12 = Retail; 13 = Construction; 14 = Transport; 15 = Hotels; 16 = Restaurants; 17 = ICT; 18 = Professional Services; 19 = Other Services
+wstrict,Weight according to strict eligibility,
+wmedian,Weight according to median eligibility,
+wweak,Weight according to weak eligibility,
+wstrict_BR,B-Ready weight according to strict eligibility,
+wmedian_BR,B-Ready weight according to median eligibility,
+wweak_BR,B-Ready weight according to weak eligibility,
+strata,see notes,

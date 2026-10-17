@@ -1,0 +1,85 @@
+==========================================
+
+Python cache and temporary files
+
+==========================================
+
+pycache/
+*.py[cod]
+*.pyo
+*.tmp
+*.log
+.ipynb_checkpoints/
+
+==========================================
+
+Virtual environments
+
+==========================================
+
+.venv/
+venv/
+env/
+
+==========================================
+
+Environment variables and credentials
+
+==========================================
+
+.env
+.env.*
+!.env.example
+
+# Local backup; do not upload to GitHub
+backup_before_portable_paths/
+==========================================
+
+Raw World Bank survey data
+
+Keep original datasets out of GitHub
+
+==========================================
+
+data/raw/
+
+==========================================
+
+Large processed datasets
+
+==========================================
+
+data/processed/*.parquet
+data/processed/*.dta
+
+Exclude row-level model predictions
+
+data/processed/logistic_regression_predictions.csv
+
+==========================================
+
+Temporary databases and local artifacts
+
+==========================================
+
+*.sqlite
+*.db-journal
+
+==========================================
+
+Operating system files
+
+==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+==========================================
+
+Editor settings
+
+==========================================
+
+.vscode/
+.idea/

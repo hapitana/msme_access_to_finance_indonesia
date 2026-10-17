@@ -1,0 +1,5 @@
+credit_status,obstacle_group,count,credit_group_total,row_percent
+Has credit,Major/severe obstacle,112,513,21.83
+Has credit,No major/severe obstacle,401,513,78.17
+No credit,Major/severe obstacle,260,1978,13.14
+No credit,No major/severe obstacle,1718,1978,86.86

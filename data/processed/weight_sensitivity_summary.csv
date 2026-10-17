@@ -1,0 +1,4 @@
+weight,observations,unweighted_pct,weighted_pct,weight_sum
+wstrict,2491,14.93,12.38,99540.99
+wmedian,2491,14.93,14.91,181133.27
+wweak,2491,14.93,11.43,600096.36

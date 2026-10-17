@@ -1,0 +1,11 @@
+credit_status,finance_obstacle,count,credit_group_total,row_percent
+Has credit,0 No obstacle,141,513,27.49
+Has credit,1 Minor,121,513,23.59
+Has credit,2 Moderate,139,513,27.1
+Has credit,3 Major,78,513,15.2
+Has credit,4 Very severe,34,513,6.63
+No credit,0 No obstacle,851,1978,43.02
+No credit,1 Minor,469,1978,23.71
+No credit,2 Moderate,398,1978,20.12
+No credit,3 Major,155,1978,7.84
+No credit,4 Very severe,105,1978,5.31

@@ -1,0 +1,4 @@
+firm_size,sample_count,group_weight_total,major_severe_weight,major_severe_count,weighted_major_severe_percent
+Large,167,3435.521300315857,248.5509716272354,13,7.23
+Medium,305,21165.350331544876,1682.1646664142609,36,7.95
+Small,2361,178791.96278762817,28450.43938624859,367,15.91
