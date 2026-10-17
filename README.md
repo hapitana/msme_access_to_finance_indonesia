@@ -70,16 +70,25 @@ The exact set of scripts may differ if the repository has additional earlier scr
 
 ## Setup
 
-Use a Python environment with the packages required by the scripts. The workflow was developed with Python 3.14 and Polars 2.0.0; package compatibility can vary by environment.
+Use Python 3.14 or a compatible Python version with the dependencies listed in `requirements.txt`. The workflow was developed with Python 3.14 and Polars 2.0.0; compatibility may vary across environments.
 
-Example Windows Command Prompt commands:
+### Installation
 
-```bat
-cd /d D:\portofolio\02_msme_access_to_finance
-python -m pip install polars pyreadstat scikit-learn matplotlib
+From the project directory, run:
+
+```powershell
+python -m pip install -r requirements.txt
 ```
 
-Install any additional package imported by a script if it is not already installed. The project intentionally uses **Polars rather than pandas** for data manipulation.
+If using Windows PowerShell, navigate to the project directory first:
+
+```powershell
+cd D:\portofolio\02_msme_access_to_finance
+```
+
+Obtain the raw survey data separately according to the instructions in the **Obtaining the data** section. Raw survey data are not included in this repository.
+
+The project intentionally uses **Polars rather than pandas** for data manipulation.
 
 ## Main variables
 
