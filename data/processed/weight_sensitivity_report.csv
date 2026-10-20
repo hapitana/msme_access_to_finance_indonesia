@@ -1,4 +1,4 @@
-weight,observations,unweighted_pct,weighted_pct,difference_vs_unweighted_pp
-wstrict,2491,14.93,12.38,-2.55
-wmedian,2491,14.93,14.91,-0.02
-wweak,2491,14.93,11.43,-3.5
+weight,observations,unweighted_pct,weighted_pct,difference_vs_unweighted_pp,wmedian_pct,difference_vs_wmedian_pp
+wstrict,2833,14.68,12.67,-2.02,14.94,-2.27
+wmedian,2833,14.68,14.94,0.25,14.94,0.0
+wweak,2833,14.68,11.66,-3.03,14.94,-3.28

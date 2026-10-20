@@ -71,3 +71,24 @@ for column in weight_columns:
     print(f"Mean: {series.mean()}")
 
 print("\nInspection completed.")
+
+
+# 3. Inspect survey weight distributions and extreme values
+print("\nSURVEY WEIGHT DISTRIBUTION CHECK")
+print("=" * 60)
+
+for column in weight_columns:
+    if column not in df.columns:
+        continue
+
+    series = df.get_column(column)
+
+    quantiles = series.quantile(0.50), series.quantile(0.90), series.quantile(0.95), series.quantile(0.99)
+
+    print(f"\nVariable: {column}")
+    print(f"Median (P50): {quantiles[0]:.3f}")
+    print(f"P90: {quantiles[1]:.3f}")
+    print(f"P95: {quantiles[2]:.3f}")
+    print(f"P99: {quantiles[3]:.3f}")
+    print(f"Values above 1,000: {(series > 1000).sum():,}")
+    print(f"Values above 5,000: {(series > 5000).sum():,}")

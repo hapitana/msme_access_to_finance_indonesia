@@ -1,0 +1,7 @@
+weight,credit_status,sample_count,unweighted_major_severe_pct,weighted_major_severe_pct,weight_sum
+wstrict,Has credit,513,21.83,23.19,20134.98
+wstrict,No credit,1978,13.14,9.63,79406.01
+wmedian,Has credit,513,21.83,24.86,37339.22
+wmedian,No credit,1978,13.14,12.33,143794.05
+wweak,Has credit,513,21.83,21.71,125190.75
+wweak,No credit,1978,13.14,8.73,474905.61

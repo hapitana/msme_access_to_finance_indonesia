@@ -1,3 +1,3 @@
-credit_status,sample_count,group_weight_total,major_severe_weight,major_severe_count,weighted_major_severe_percent
-Has credit,513,37339.22084963322,9283.918432593346,112,24.86
-No credit,1978,143794.05174148083,17726.876554846764,260,12.33
+credit_status,sample_count,group_weight_total,major_severe_weight,major_severe_count,weighted_major_severe_pct,unweighted_major_severe_pct
+Has credit,513,37339.22084963322,9283.918432593346,112,24.86,21.83
+No credit,1978,143794.05174148083,17726.876554846764,260,12.33,13.14
