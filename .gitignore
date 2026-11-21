@@ -83,3 +83,14 @@ Editor settings
 
 .vscode/
 .idea/
+# Exclude all processed research data and intermediate outputs
+data/processed/
+
+# Exclude generated outputs
+outputs/
+
+# Exclude private manuscript draft
+/Journal_article.txt
+
+# Exclude temporary Office files
+~$*
