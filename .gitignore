@@ -1,96 +1,50 @@
-==========================================
-
-Python cache and temporary files
-
-==========================================
-
-pycache/
+# Python bytecode and caches
+__pycache__/
 *.py[cod]
 *.pyo
-*.tmp
-*.log
 .ipynb_checkpoints/
 
-==========================================
-
-Virtual environments
-
-==========================================
-
+# Virtual environments
 .venv/
 venv/
 env/
 
-==========================================
-
-Environment variables and credentials
-
-==========================================
-
+# Environment variables, credentials, and local secrets
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+secrets/
+credentials/
 
-# Local backup; do not upload to GitHub
-backup_before_portable_paths/
-==========================================
-
-Raw World Bank survey data
-
-Keep original datasets out of GitHub
-
-==========================================
-
+# Raw and processed microdata
 data/raw/
+data/processed/
+outputs/
 
-==========================================
-
-Large processed datasets
-
-==========================================
-
-data/processed/*.parquet
-data/processed/*.dta
-
-Exclude row-level model predictions
-
-data/processed/logistic_regression_predictions.csv
-
-==========================================
-
-Temporary databases and local artifacts
-
-==========================================
-
+# Temporary databases
 *.sqlite
+*.sqlite3
+*.db
 *.db-journal
 
-==========================================
+# Logs and temporary diagnostic output
+*.log
+*.tmp
+diagnose_k30.py
+script55_*.txt
+script63_*.txt
+script64_*.txt
 
-Operating system files
-
-==========================================
-
+# Operating-system and editor files
 .DS_Store
 Thumbs.db
 desktop.ini
-
-==========================================
-
-Editor settings
-
-==========================================
-
 .vscode/
 .idea/
-# Exclude all processed research data and intermediate outputs
-data/processed/
 
-# Exclude generated outputs
-outputs/
-
-# Exclude private manuscript draft
-/Journal_article.txt
-
-# Exclude temporary Office files
+# Local backups and private drafts
+backup_before_portable_paths/
+Journal_article.txt
 ~$*
